@@ -1,0 +1,49 @@
+import Glifo from "../../glifos/domain/Glifo";
+
+export default interface Armadura{
+//  ------------------
+//  armadura
+//  ------------------
+    id?: number, 
+    nombre: string, 
+    tipo: string, 
+    rareza: string, 
+    nivel: number, 
+    clase_peso: string
+    peso: number, 
+    imagen: string, 
+//  ------------------
+//  atributos_armadura
+//  ------------------
+    vitality: number;
+    attack_power: number;
+    bludgeoning_defense: number;
+    piercing_defense: number;
+    slashing_defense: number;
+    resistance_to_piercing_damage: number;
+    resistance_to_bludgeoning_damage: number;
+    resistance_to_slashing_damage: number;
+    resistance_to_elemental_damage: number;
+    resistance_to_damage_from_monsters: number;
+    resistance_to_poisoning: number;
+    resistance_to_burning: number;
+    resistance_to_bleeding: number;
+    sign_intensity: number;
+    adrenaline_point_gain: number;
+    crafting_hit_chance: number;
+    damage_dealt_returned_as_vitality: number;
+    toxicity: number;
+    maximum_toxicity: number;
+    chance_to_deflect_projectiles_with_quen: number;
+    aard_sign_intensity: number;
+    igni_sign_intensity: number;
+    axii_sign_intensity: number;
+    yrden_sign_intensity: number;
+    quen_sign_intensity: number;
+    critical_hit_chance: number;
+    critical_hit_damage_bonus: number;
+    chance_to_find_additional_herbs: number;
+    bonus_gold: number;
+    armor_piercing: number;
+//  ------------------
+}
